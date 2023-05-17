@@ -1,0 +1,13 @@
+CREATE TABLE employees (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  address VARCHAR(255),
+  phone_number VARCHAR(20),
+  department VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE departments (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL
